@@ -6,4 +6,5 @@ new create branch dev
 
 
 merge branch!!! 合并冲突
+分支的管理策略
 
