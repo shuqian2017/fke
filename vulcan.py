@@ -16,7 +16,11 @@ class Application(Frame):
        self.alertButton = Button(self, text='点击按钮', command=self.hello)
        self.alertButton.pack()
 
-   def hello(self):									              name = self.nameInput.get() or 'WORLD!'						             messagebox.showinfo("Message", 'hello, %s' % name)
-       
-       
-app = Application()								              app.master.title("欢迎来到王者荣耀")							     app.mainloop()    # 进入消息循环
+   def hello(self):	
+       name = self.nameInput.get() or 'WORLD!'						             
+       messagebox.showinfo("Message", 'hello, %s' % name)       
+
+	
+app = Application()
+app.master.title("欢迎来到王者荣耀")							     
+app.mainloop()    # 进入消息循环
