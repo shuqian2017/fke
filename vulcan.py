@@ -20,7 +20,8 @@ class Application(Frame):
        name = self.nameInput.get() or 'WORLD!'						             
        messagebox.showinfo("Message", 'hello, %s' % name)       
 
-	
+
+# 主程序
 app = Application()
 app.master.title("欢迎来到王者荣耀")							     
 app.mainloop()    # 进入消息循环
